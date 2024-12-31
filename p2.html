@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Date Display</title>
+<script type="text/javascript">
+var days = [ "First" , "Second" , "Third" , "Fourth" , "Fifth" , "Sixth" , "Seventh" , "Eighth" , "Ninth" , "Tenth" ,
+"Eleventh" , "Twelfth" , "Thirteenth" , "Fourteenth" , "Fifteenth" , "Sixteenth" , "Seventeenth" , "Eighteenth" ,
+"Ninteenth" , "Twentyeth" , "TwentyFirst" , "TwentySecond" , "TwentyThird" , "TwentyFourth" , "TwentyFifth" ,
+"TwentySixth" , "TwentySeventh" , "TwentyEighth" , "TwentyNinth" , "Thirtyeth" , "ThirtyFirst"];
+var months = [ "January" , "February" , "March" , "April" , "May" , "June" , "July" , "August" , "September" ,
+"October" , "November" , "December" ];
+var year = "Two Thousand Twenty Three";
+vardateObj = new Date();
+varcurrMonth = dateObj.getMonth();
+varcurrDate = dateObj.getDate();
+varcurrYear = dateObj.getFullYear();
+if (currYear == 2023)
+alert ("Today's Date is : " + days [ currDate - 1 ] + "" + months [ currMonth ] + "" + year );
+else
+alert ("Today's Date is : " + days [ currDate - 1 ] + "" + months [ currMonth ] + "" + currYear );
+</script>
+</head>
+<body>
+</body>
+</html>
